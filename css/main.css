@@ -343,17 +343,14 @@ section:nth-of-type(odd) {
     color: #aaaaaa;
 }
 
-#join a {
-    color: white;
-}
-
 #nav-join {
     background-color: darkgreen;
     border-radius: 10px;
 }
 
-.join-link {
+.join-link, .join-link:visited {
     background-color: #7289da;
+    color: white;
 }
 
 .usual-time {
